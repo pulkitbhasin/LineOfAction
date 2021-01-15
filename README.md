@@ -42,10 +42,9 @@ loa/			Directory containing the Lines of Action package.
     MachinePlayer.java  A kind of Player that chooses its moves automatically.
 
 
-    Reporter.java       From Project 2: a utility class for handling debugging
+    TextReporter.java       From Project 2: a utility class for handling debugging
                         output.
 
-    UnitTest.java       Class that performs unit testing of the loa package.
 
 
 
@@ -53,5 +52,3 @@ tests/                  A directory of tests.  At the moment, there's nothing
                         there.  We'll be supplying a testing script (test-loa)
                         and a sample test in a bit.
 
-    test*.inp	        Test cases.  Each one is input to a testing script
-                        test-loa, which we will be providing.
