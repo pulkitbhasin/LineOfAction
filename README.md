@@ -1,3 +1,57 @@
 # LineOfAction
 
-Created a GUI for popular game Line of Action and designed an AI for players to compete with using game trees, heuristics, alpha-beta pruning algorithms in Java
+This directory contains a skeleton for CS61B Project 3. A project specification can be found at 
+
+https://inst.eecs.berkeley.edu/~cs61b/fa12/labs/proj3.pdf
+
+
+*Note: This project was compiled on UC Berkeley instructional machines and may need auxilary files and packages to compile and run. 
+
+CONTENTS:
+
+ReadMe			This file.
+	
+Makefile		A makefile (for gmake) that will compile your
+			files and run tests.  You must turn in a Makefile,
+			'gmake ' must compile all your files, and 
+			'gmake check' must perform all your tests.  
+			Currently, this makefile is set up to do just 
+			that with our skeleton files.  Be sure to keep 
+			it up to date.
+
+loa/			Directory containing the Lines of Action package.
+
+    Makefile		A convenience Makefile so that you can issue 
+			compilation commands from the game directory.
+
+    Side.java		An enumerated type describing the two sides (black
+			or white).
+
+    Piece.java	 	An enumerated type describing the kinds of pieces.
+
+    Move.java		Represents a single move.
+
+    Board.java	        Represents a game board.  Contains much of the
+			machinery for checking or generating possible moves.
+
+    MutableBoard.java   A subtype of Board on which one can make moves.
+
+    HumanPlayer.java	A kind of Player that reads moves from the standard
+                        input (i.e., presumably from a human player).
+
+    MachinePlayer.java  A kind of Player that chooses its moves automatically.
+
+
+    Reporter.java       From Project 2: a utility class for handling debugging
+                        output.
+
+    UnitTest.java       Class that performs unit testing of the loa package.
+
+
+
+tests/                  A directory of tests.  At the moment, there's nothing
+                        there.  We'll be supplying a testing script (test-loa)
+                        and a sample test in a bit.
+
+    test*.inp	        Test cases.  Each one is input to a testing script
+                        test-loa, which we will be providing.
